@@ -2,6 +2,4 @@
 
 #Utilizando o pipe
 
-arq=$1
-
-echo $1 | bc
+echo "'obase16; 43^2 - (11^3 - 31/4); 10+10" | bc
